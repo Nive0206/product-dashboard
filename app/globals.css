@@ -1,0 +1,84 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #EAD8B1; /* Light background for better contrast */
+}
+
+header {
+  background-color: #001F3F; /* Dark Blue */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+aside {
+  width: 200px;
+  background-color: #3A6D8C; /* Darker Cyan */
+  color: #fff;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+}
+
+aside ul {
+  list-style: none;
+  padding: 0;
+}
+
+aside ul li {
+  margin-bottom: 10px;
+}
+
+aside ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+form button {
+  padding: 10px 15px;
+  background-color: #6A9AB0; /* Lighter Cyan */
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #001F3F; /* Dark Blue */
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+/* New classes for boxes */
+.add-product {
+  background-color: #001F3F; /* Darker Cyan */
+  color: #fff;
+}
+
+.product-list {
+  background-color: #001F3F; /* Lighter Cyan */
+  color: #fff;
+}
+
+.sales-chart {
+  background-color: #001F3F; /* Dark Blue */
+  color: #fff;
+}
